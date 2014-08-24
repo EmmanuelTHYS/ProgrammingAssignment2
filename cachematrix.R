@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   #the set function will take a matrix as an argument and store it in x, we have to set also i with NULL, if we don't we could return 
   #a false result (the inverse of the matrix stored previously in x)
-    set <- function(y) {
+  set <- function(y) {
     x <<- y
     i <<- NULL
   }
